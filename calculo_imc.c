@@ -11,7 +11,7 @@ int main() {
     printf("Digite sua massa (em Kg) e altura (em metros): ");
     scanf("%f %f", &massa, &altura);
 
-    // Cálculo do IMC
+    // Cálculo do imc mano
     imc = massa / (altura * altura);
 
     // Cálculo da massa mínima e máxima
