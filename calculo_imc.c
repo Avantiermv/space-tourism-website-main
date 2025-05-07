@@ -18,7 +18,7 @@ int main() {
     massaminima = imcminimo * (altura * altura);
     massamaxima = imcmaximo * (altura * altura);
 
-    // Verificação do IMC (ABAIXO DO PESO)
+    // Verificação do IMC (ABAIXO DO PESO DA PESSOA)
     if (imc < 17) {
         printf("Atenção! Você está muito abaixo do peso!\n");
     } else if (imc >= 17 && imc < 18.5) {
@@ -27,7 +27,7 @@ int main() {
         printf("Aconselho a ganhar %.2f Kg para ficar na faixa ideal.\n", pesoganhar);
     }
 
-    // Verificação do IMC (ACIMA DO PESO)
+    // Verificação do IMC (ACIMA DO PESO DA PESSOA)
     else if (imc > 25) {
         pesoperder = massa - massamaxima;
         printf("IMC: %.2f.\n", imc);
@@ -51,4 +51,7 @@ int main() {
     }
 
     return 0;
+    /*
+    E é isso pessual
+    */
 }
