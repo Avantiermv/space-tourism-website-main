@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("CALCULO DO IMC!\n\n");
+    printf("CALCULO DO IMC\n\n");
 
-    // Declaração das variáveis.
+    // Declaração das variáveis
     float massa, altura, imc;
     float massaminima, massamaxima, pesoperder = 0, pesoganhar = 0;
     float imcminimo = 18.5, imcmaximo = 25;
