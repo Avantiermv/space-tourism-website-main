@@ -6,7 +6,6 @@ This is a challenge from the platform [Frontend-Mentor](https://www.frontendment
 
 ## 📸 Visuals and Screenshots
 
-
 ## Technologies            
   
 ### Functionalities
