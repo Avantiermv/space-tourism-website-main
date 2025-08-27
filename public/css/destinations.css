@@ -1,0 +1,99 @@
+@import url('index.css');
+
+.number-of-the-page{
+    font-family: var(--font-barlow-condensed);
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #ffffff43;
+
+    padding: 10px;
+}
+
+.title-of-the-page{
+    font-family: var(--font-barlow-condensed);
+    font-weight: 400;
+    font-size: 1.3em;
+    color: var(--white);
+
+    letter-spacing: 5px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.align-itens-in-the-screen{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 460px;
+}
+
+.image-size-adjustment{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.destinations-infos{
+    max-width: 500px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.destination-title{
+    font-family: var(--font-bellefair);
+    font-weight: 300;
+    font-size: 5em;
+    color: var(--white);
+
+    margin: 20px;
+}
+
+.about-destination{
+    font-family: var(--font-barlow);
+    font-weight: 400;
+    font-size: 1.2em;
+    color: var(--blue300);
+
+    margin: 20px;
+}
+
+.information-divider{
+    border: none;
+    border-top: 1px solid #9797977c;
+}
+
+.align-topics{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.topics-div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.informative-topic-title{
+    font-family: var(--font-barlow-condensed);
+    font-size: 1.2em;
+    font-weight: 300;
+    color: var(--blue300);
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.informative-topic{
+    font-family: var(--font-bellefair);
+    font-weight: 300;
+    font-size: 1.6em;
+    color: var(--white);
+    padding-top: 5px;
+    text-transform: uppercase;
+}

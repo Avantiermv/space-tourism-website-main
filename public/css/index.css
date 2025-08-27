@@ -19,8 +19,7 @@
     --white: #ffffff; 
 }
 
-body{
-    width: 100%;
+body, html{
     height: 100%;
 }
 
@@ -28,4 +27,12 @@ body{
     background-image: url('../images/home/background-home-desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.bg-destinations{
+    background-image: url('../images/destination/background-destination-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
