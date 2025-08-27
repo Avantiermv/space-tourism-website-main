@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title><%= title %></title>
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/header.css">
   <link rel="stylesheet" href="/css/main.css">
 </head>
-<body class="<%= backgroundClass %>">
-  <%- include('partials/header') %>
+<body class="<%= backgroundClass %> <%= bodyClass %>">
 
-  <main>
+  <main class="grid-site-content">
+    <%- include('partials/header') %>
     <%- body %> <!-- Aqui entra o conteúdo da página -->
   </main>
+  
 </body>
 </html>

@@ -1,0 +1,43 @@
+@import url('index.css');
+
+.main-header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-nav{
+    margin: 10px;
+    background-color: #c3bcbc8d;
+    padding-left: 30px;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    list-style-type: none;
+}
+
+.main-nav ul li{
+    margin: 10px;
+    padding: 10px;
+}
+
+.main-nav ul li a{
+    font-family: var(--font-barlow-condensed);
+    font-size: 1.4em;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header-line{
+    position: absolute;
+    width: 350px;
+}
