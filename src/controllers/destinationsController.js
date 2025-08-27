@@ -1,7 +1,7 @@
-exports.exibirDestinos = (req, res) => {
-    res.render('./destinations/destination-europa', {
-        title: "Space Tourism Website - Europa",
+exports.showDestinations = (req, res) => {
+    res.render('./destinations/destination-moon', {
+        title: "Space Tourism Website - Moon",
         bodyClass: 'body-style',
-        backgroundClass: 'bg-home'
+        backgroundClass: 'bg-destinations'
     });
 }
