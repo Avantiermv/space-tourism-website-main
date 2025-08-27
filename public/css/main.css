@@ -1,4 +1,5 @@
-.grid-site-content{
-    max-width: 1200px;
-    margin: auto;
+.display-site-content{
+    padding-left: 80px;
+    padding-right: 80px;
+   
 }

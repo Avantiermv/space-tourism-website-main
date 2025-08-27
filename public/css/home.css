@@ -1,0 +1,61 @@
+@import url('index.css');
+
+.home-main-content{
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.text-content-div{
+    width: 585px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: self-start;
+    justify-content: center;
+}
+
+.first-text{
+    font-family: var(--font-barlow-condensed);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--blue300);
+    padding: 20px;
+}
+
+.title-home{
+    font-family: var(--font-bellefair);
+    font-size: 144px;
+    font-weight: 100;
+    color: var(--white);
+    padding: 20px;
+}
+
+.explanatory-text{
+    font-family: var(--font-barlow);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--blue300);
+    padding: 20px;
+
+    text-align: justify;
+}
+
+.action-button{
+    width: 272px;
+    height: 272px;
+    border-radius: 100%;
+
+    font-family: var(--font-bellefair);
+    font-size: 32px;
+    font-weight: 100;
+
+    border-style: none;
+}
+
+.action-button:hover{
+    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.3);
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}

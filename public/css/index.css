@@ -12,7 +12,7 @@
 :root{
     --font-bellefair: "Bellefair", serif;
     --font-barlow-condensed: "Barlow Condensed", sans-serif;
-    --font-Barlow: "Barlow", sans-serif;
+    --font-barlow: "Barlow", sans-serif;
 
     --blue900:#0B0D17;
     --blue300: #D0D6F9;
@@ -21,8 +21,7 @@
 
 body{
     width: 100%;
-    height: 100vh;
-
+    height: 100%;
 }
 
 .bg-home{
