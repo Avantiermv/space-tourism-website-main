@@ -8,28 +8,6 @@ This is a challenge from the platform [Frontend-Mentor](https://www.frontendment
 
 ## Technologies            
   
-### Functionalities
-
-#### Part 1: Home
-- [] Homepage structure
-- [] Homepage style
-- [] Homepage Routes
-
-#### Part 2: Destinations
-- [] Destinations structure
-- [] Destinations style
-- [] Destinations Routes
-
-#### Part 3: Crew
-- [] Crew structure
-- [] Crew style
-- [] Crew Routes
-
-#### Part 4: Tecnology
-- [] Tecnology structure
-- [] Tecnology style
-- [] Tecnology Routes
-
 
 ## ⚙ Installation    
 
@@ -38,9 +16,9 @@ This is a challenge from the platform [Frontend-Mentor](https://www.frontendment
 
 The challenge is currently under construction.
 
-## Authors
+## Author
 
-- Marcos Vinicius [Avantiermv]()
+- Marcos Vinicius [Avantiermv](https://www.frontendmentor.io/profile/Avantiermv)
 
 ## 📜 License             
 The project will be published in 2025 on the license [MIT](./LICENSE)                      
