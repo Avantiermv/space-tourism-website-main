@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title><%= title %></title>
@@ -12,9 +12,10 @@
 <body class="<%= backgroundClass %> <%= bodyClass %>">
   <%- include('partials/header') %>
   <main class="display-site-content">
-    
     <%- body %> <!-- Here's all the main part -->
   </main>
-  
+
+
+  <script type="module" src="/js/main.js"></script>
 </body>
 </html>
