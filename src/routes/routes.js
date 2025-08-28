@@ -8,7 +8,8 @@ const tecnologyController = require('../controllers/tecnologyControllers');
 
 router.get('/', homeController.showHome); 
 
-router.get('/destination', destinationsController.showDestinations);
+router.get('/destination', destinationsController.showDestinationMoon);
+router.get('/destination/destination-mars', destinationsController.showDestinationMars);
 router.get('/crew', crewController.showCrew);
 router.get('/technology', tecnologyController.showTecnology);
 
