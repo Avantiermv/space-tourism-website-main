@@ -10,7 +10,7 @@ exports.showDestinationMoon = (req, res) => {
 }
 
 exports.showDestinationMars = (req, res) => {
-    res.render('./destinations/destination-moon', {
+    res.render('./destinations/destination-mars', {
         title: "Space Tourism Website - Mars",
         bodyClass: 'body-style',
         backgroundClass: 'bg-destinations',
