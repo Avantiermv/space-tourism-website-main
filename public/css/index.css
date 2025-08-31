@@ -36,3 +36,14 @@ body, html{
     background-size: cover;
     background-position: center;
 }
+
+.bg-crew{
+    background-image: url('../images/crew/background-crew-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.transitions{
+    transition: 0.5s ease-in-out;
+}
