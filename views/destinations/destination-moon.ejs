@@ -1,4 +1,4 @@
-<% data.destinations.forEach((destination, index) => { %>
+<% data.destinations.forEach(destination => { %>
   <% if(destination.name === 'Moon'){ %>
     <div class="destinations-main-content-div">
       <h1 class="title-of-the-page">
@@ -10,7 +10,7 @@
         </div>
         <div class="destinations-infos">
           <div class="destinations-nav-div">
-            <%- include('partials/destinations-nav', { destinations: data.destinations }) %>
+            <%- include('partials/destinations-nav') %>
           </div>
           <div class="destination-description">
             <h2 class="destination-title"><%= destination.name %></h2>
