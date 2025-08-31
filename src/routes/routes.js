@@ -10,6 +10,8 @@ router.get('/', homeController.showHome);
 
 router.get('/destination', destinationsController.showDestinationMoon);
 router.get('/destination/destination-mars', destinationsController.showDestinationMars);
+router.get('/destination/destination-europa', destinationsController.showDestinationEuropa);
+router.get('/destination/destination-titan', destinationsController.showDestinationTitan);
 router.get('/crew', crewController.showCrew);
 router.get('/technology', tecnologyController.showTecnology);
 

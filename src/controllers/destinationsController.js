@@ -17,3 +17,21 @@ exports.showDestinationMars = (req, res) => {
         data
     });
 }
+
+exports.showDestinationEuropa = (req, res) => {
+    res.render('./destinations/destination-europa', {
+        title: "Space Tourism Website - Europa",
+        bodyClass: 'body-style',
+        backgroundClass: 'bg-destinations',
+        data
+    });
+}
+
+exports.showDestinationTitan = (req, res) => {
+    res.render('./destinations/destination-titan', {
+        title: "Space Tourism Website - Titan",
+        bodyClass: 'body-style',
+        backgroundClass: 'bg-destinations',
+        data
+    });
+}
