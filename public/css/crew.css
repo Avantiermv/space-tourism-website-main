@@ -1,0 +1,26 @@
+@import url('index.css');
+
+.role{
+    font-family: var(--font-bellefair);
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff58;
+
+    margin: 20px;
+}
+
+.crew-description{
+    max-width: 770px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.align-items-crew{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}

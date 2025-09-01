@@ -29,35 +29,10 @@
     height: 460px;
 }
 
-.image-size-adjustment{
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
 .destinations-infos{
     max-width: 500px;
     margin: 20px;
     padding: 5px;
-}
-
-.destination-title{
-    font-family: var(--font-bellefair);
-    font-weight: 300;
-    font-size: 5em;
-    color: var(--white);
-
-    margin: 20px;
-    text-transform: uppercase;
-}
-
-.about-destination{
-    font-family: var(--font-barlow);
-    font-weight: 400;
-    font-size: 1.2em;
-    color: var(--blue300);
-
-    margin: 20px;
 }
 
 .information-divider{

@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 *{
     padding: 0px;
     margin: 0px;
@@ -21,6 +20,11 @@
 
 body, html{
     height: 100%;
+}
+
+.display-site-content{
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .bg-home{
@@ -44,6 +48,27 @@ body, html{
     background-position: center
 }
 
-.transitions{
-    transition: 0.5s ease-in-out;
+.image-size-adjustment{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.about{
+    font-family: var(--font-barlow);
+    font-weight: 400;
+    font-size: 1.2em;
+    color: var(--blue300);
+
+    margin: 20px;
+}
+
+.item-title{
+    font-family: var(--font-bellefair);
+    font-weight: 300;
+    font-size: 5em;
+    color: var(--white);
+
+    margin: 20px;
+    text-transform: uppercase;
 }
