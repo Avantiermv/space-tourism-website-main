@@ -20,6 +20,7 @@
 
 body, html{
     height: 100%;
+    overflow-y: hidden;
 }
 
 .display-site-content{
@@ -50,7 +51,7 @@ body, html{
 
 .image-size-adjustment{
     width: 100%;
-    max-width: 400px;
+    max-width: 358px;
     margin: 0 auto;
 }
 

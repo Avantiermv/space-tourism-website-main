@@ -23,4 +23,32 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+}
+
+.crew-ul{
+    margin: 20px;
+}
+
+.crew-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffffff28;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.crew-option:hover{
+    cursor: pointer;
+    background-color: #ffffff74;
+    transition: 0.3s;
+}
+
+.fix{
+    color: rgba(178, 34, 34, 0);
+    font-size: 1.5em;
 }
