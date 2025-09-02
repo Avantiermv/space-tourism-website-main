@@ -1,9 +1,25 @@
-  02 Meet your crew
-
-  Pilot
-  Victor Glover
-
-  Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-  International Space Station. Glover is a commander in the U.S. Navy where 
-  he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-  station systems flight engineer. 
+ <% data.crew.forEach(crew => { %>
+  <% if(crew.name === 'Victor Glover'){ %>
+    <div class="crew-main-content-div">
+      <h1 class="title-of-the-page">
+        <span class="number-of-the-page">02</span> MEET YOUR CREW
+      </h1>
+      <div class="align-items-crew">
+        <div class="crew-description">
+          <h2 class="role"><%= crew.role %></h2>
+          <h1 class="item-title"><%= crew.name %></h1>
+          <p class="about">
+            <%= crew.bio %>
+          </p>
+          <div class="crew-nav">
+            <%- include('partials/crew-nav') %>
+          </div>
+        </div>
+        <div class="crew-image-div">
+          <img src="<%= crew.images.png %>" alt="<%= crew.name %>" class="image-size-adjustment">
+        </div>
+      </div>
+    </div>
+    }
+  <% } %>
+<% }) %> 

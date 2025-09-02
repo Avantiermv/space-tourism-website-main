@@ -1,8 +1,25 @@
-  02 Meet your crew
-
-  Flight Engineer
-  Anousheh Ansari
-
-  Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
-  Ansari was the fourth self-funded space tourist, the first self-funded woman to 
-  fly to the ISS, and the first Iranian in space. 
+<% data.crew.forEach(crew => { %>
+  <% if(crew.name === 'Anousheh Ansari'){ %>
+    <div class="crew-main-content-div">
+      <h1 class="title-of-the-page">
+        <span class="number-of-the-page">02</span> MEET YOUR CREW
+      </h1>
+      <div class="align-items-crew">
+        <div class="crew-description">
+          <h2 class="role"><%= crew.role %></h2>
+          <h1 class="item-title"><%= crew.name %></h1>
+          <p class="about">
+            <%= crew.bio %>
+          </p>
+          <div class="crew-nav">
+            <%- include('partials/crew-nav') %>
+          </div>
+        </div>
+        <div class="crew-image-div">
+          <img src="<%= crew.images.png %>" alt="<%= crew.name %>" class="image-size-adjustment">
+        </div>
+      </div>
+    </div>
+    }
+  <% } %>
+<% }) %> 
